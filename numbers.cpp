@@ -19,6 +19,7 @@ int main()
 	}
 	binary.append("1");
 	
+	// Prints the binary string in reverse
 	for (int i = arrayIndex; i >= 0; i--) {
 		cout << binary[i];
 	}
